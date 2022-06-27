@@ -26,7 +26,6 @@ document.getElementById('nextBtn').onclick=function(){
 }
 
 function updateSlide(){
-    // slides.classList.remove("carouselItemVisible");
     for(let slide of slides){
         slide.classList.remove('carouselItemVisible');
         slide.classList.add('carouselItemHidden');
