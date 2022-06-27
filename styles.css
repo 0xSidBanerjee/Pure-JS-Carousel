@@ -1,0 +1,35 @@
+.carousel{
+    overflow: hidden;
+    max-width: 1587px;
+    position: relative;
+}
+
+.carousel .carouselItem, .carouselItem .carouselItemHidden {
+    display: none;
+}
+.carousel .carouselItem img{
+    max-width: 1587px;
+    width: 100%;
+    height:97vh;
+}
+
+.carousel .carouselItemVisible{
+    display: block;
+}
+
+.carousel .carouselActions{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+}
+.carousel .carouselActions button{
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    margin: 0 20px;
+}
